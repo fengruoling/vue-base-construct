@@ -29,12 +29,14 @@ yarn run lint
 │  │  index.html                <i>html文件</i>
 │  │  
 │  └─static                     <i>自定义静态资源目录</i>
-│      └─fonts                  <i>字体文件，内置思源黑体，不需要可删除</i>
+|
 └─src                           <i>开发代码目录</i>
 │  │  App.vue                   <i>组件入口</i>
 │  │  main.js                   <i>项目入口文件</i>
+|  |
 │  ├─api                        <i>接口请求</i>
 │  │      http.js               <i>请求封装配置</i>
+|  |
 │  ├─assets                     <i>资源目录，可放置图片、字体图标等</i>
 │  ├─components                 <i>公共组件</i>
 │  ├─mixins                     <i>混入文件</i>
@@ -43,6 +45,7 @@ yarn run lint
 │  ├─store                      <i>vuex</i>
 │  ├─styles                     <i>样式文件</i>
 │  │      _variable.scss        <i>样式全局变量</i>
+|  |
 │  ├─utils                      <i>工具方法</i>
 │  └─views                      <i>页面视图</i>
 │  .browserslistrc
@@ -54,5 +57,4 @@ yarn run lint
 │  postcss.config.js
 │  README.md
 │  vue.config.js
-│  
 </pre>
