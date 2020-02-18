@@ -39,6 +39,7 @@ yarn run lint
 |  |
 │  ├─assets                     <i>资源目录，可放置图片、字体图标等</i>
 │  ├─components                 <i>公共组件</i>
+│  ├─directives                 <i>指令</i>
 │  ├─mixins                     <i>混入文件</i>
 │  ├─plugins                    <i>插件</i>
 │  ├─router                     <i>路由</i>
