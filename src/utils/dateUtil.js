@@ -1,4 +1,8 @@
 /**
+ * 此文件用于放置各种日期对象相关的处理函数
+ */
+
+/**
  * @description 返回指定日期对象前多少年的日期对象
  * @param {Number} year 年，
  * @param {Date} date 指定日期对象，默认为当前日期时间
@@ -6,7 +10,7 @@
  * @user fmz
  * @date 2020-02-17 16:18:48
 **/
-function getYearsAgoDate (year = 1, date = new Date()) {
+function getYearsAgoDate(year = 1, date = new Date()) {
   let dateCopy = dateClone(date)
   dateCopy.setFullYear(dateCopy.getFullYear() - year)
   return dateCopy
@@ -19,7 +23,7 @@ function getYearsAgoDate (year = 1, date = new Date()) {
  * @user fmz
  * @date 2020-02-17 16:23:19
 **/
-function dateClone (date) {
+function dateClone(date) {
   return new Date(date.getTime())
 }
 
@@ -31,7 +35,7 @@ function dateClone (date) {
  * @user fmz
  * @date 2020-02-17 16:57:50
 **/
-function dateFormat (date = new Date(), formatStr) {
+function dateFormat(date = new Date(), formatStr) {
   if (date.constructor !== Date) {
     return date
   }
