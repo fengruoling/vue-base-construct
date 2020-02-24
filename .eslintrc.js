@@ -14,5 +14,8 @@ module.exports = {
   },
   parserOptions: {
     parser: 'babel-eslint'
+  },
+  globals: {
+    // 例如：AMap: true
   }
 }
